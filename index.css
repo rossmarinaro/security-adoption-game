@@ -1,0 +1,61 @@
+@font-face {
+	font-family: "Splunk";
+	src: url("assets/Splunk Data Sans/SplunkDataSans_Rg.ttf") format("truetype");
+}
+
+#form-submit {
+  background-image: url('assets/Intro-Pre-AnalystQ/Speech-Bubble-button.png');
+  background-size: cover; 
+  background-position: center;
+  background-color: black;
+  font-weight: bold;
+  width: 300px;
+  height: 80px;
+  border: none;        
+  padding: 0;      
+  cursor: pointer;   
+  outline: none;  
+  margin-left: 30%; 
+  color: #FF0F7B;
+  font-size: 1.0em; 
+  font-family: "Splunk";
+}
+
+#dom {
+	font-size: 1.0em; 
+	font-family: "Splunk"; 
+	width: 800px; 
+	height: 620px; 
+	background-color: #000000; 
+	border: 15px solid #FF0F7B; 
+	border-radius: 25px; 
+	box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #000000;
+}
+
+
+/**********************************************  MEDIA QUERIES */
+
+
+@media screen and (orientation: portrait)
+{
+
+}
+@media screen and (orientation: landscape)
+{
+
+}
+@media screen and (min-width: 1030px) /* desktop only */
+{
+
+	#game > canvas{
+		background-color: #000000;
+		box-shadow: 0 0 85px #000000;
+	}
+}
